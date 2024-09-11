@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
       <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-purple-600 to-black">
-        <h1 className="text-5xl font-bold text-white">Welcome to Maltivas</h1>
+        <h1 className="text-5xl font-bold text-white">Welcome to Maltivasity</h1>
         <p className="mt-4 text-xl text-gray-200">
           Gamified learning for the future.
         </p>
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
       <footer className="flex justify-center py-6 mt-16 bg-gray-900">
         <div className="text-center text-gray-500">
-          <p>&copy; 2024 Maltivas. All rights reserved.</p>
+          <p>&copy; 2024 Maltivasity. All rights reserved.</p>
           <p>
             <a href="/terms" className="hover:underline">
               Terms of Service

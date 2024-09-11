@@ -10,12 +10,12 @@ import "./globals.css";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Maltivas",
+  title: "Maltivasity",
   description: "A gamified, community-based learning platform.",
   viewport: "width=device-width, initial-scale=1.0",
   keywords: "learning, LMS, gamified education, online courses",
   openGraph: {
-    title: "Maltivas",
+    title: "Maltivasity",
     description: "A gamified, community-based learning platform.",
     url: "https://yourdomain.com", // Replace with my actual URL
     type: "website",
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
         url: "https://yourdomain.com/og-image.jpg", // Replace with my OG image
         width: 1200,
         height: 630,
-        alt: "Maltivas Preview",
+        alt: "Maltivasity Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maltivas",
+    title: "Maltivasity",
     description: "A gamified learning platform.",
     images: "https://yourdomain.com/og-image.jpg", // Replace with my Twitter image
   },

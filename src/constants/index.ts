@@ -11,7 +11,7 @@ import {
 // } from "./placeholder"
 // import { GROUP_LIST, GroupListProps } from "./slider"
 
-type MaltivasConstantsProps = {
+type MaltivasityConstantsProps = {
   landingPageMenu: MenuProps[];
   //   signUpForm: AuthFormProps[]
   //   signInForm: AuthFormProps[]
@@ -20,7 +20,7 @@ type MaltivasConstantsProps = {
   //   groupPageMenu: GroupMenuProps[]
 };
 
-export const MALTIVAS_CONSTANTS: MaltivasConstantsProps = {
+export const MALTIVASITY_CONSTANTS: MaltivasityConstantsProps = {
   landingPageMenu: LANDING_PAGE_MENU,
   //   signUpForm: SIGN_UP_FORM,
   //   signInForm: SIGN_IN_FORM,
