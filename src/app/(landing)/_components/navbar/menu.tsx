@@ -4,7 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MALTIVASITY_CONSTANTS } from "@/constants";
 import { useNavigation } from "@/hooks/navigation";
 import { cn } from "@/lib/utils";
-import { Link } from "lucide-react";
+import Link from "next/link";
+
 
 type MenuProps = {
   orientation: "desktop" | "mobile";

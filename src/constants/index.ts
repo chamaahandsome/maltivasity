@@ -5,6 +5,7 @@ import {
   LANDING_PAGE_MENU,
   MenuProps,
 } from "./menus";
+import React from "react";
 // import {
 //   CREATE_GROUP_PLACEHOLDER,
 //   CreateGroupPlaceholderProps,
@@ -12,7 +13,7 @@ import {
 // import { GROUP_LIST, GroupListProps } from "./slider"
 
 type MaltivasityConstantsProps = {
-  landingPageMenu: MenuProps[];
+  landingPageMenu: MenuProps[]
   //   signUpForm: AuthFormProps[]
   //   signInForm: AuthFormProps[]
   //   groupList: GroupListProps[]
