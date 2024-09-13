@@ -116,7 +116,7 @@ const config = {
         themeDarkGray: "#1F1F23",
         themeTextGray: "#B4B0AE",
         themeTextWhite: "#F7ECE9",
-        themePurple: "#6B5B95", // Adding a primary purple color
+        themePurple: "#c70ff0", // Adding a primary purple color
         themeDarkPurple: "#4E3A69", // Darker purple for contrast
 
         // Adjusting the existing color scheme to incorporate purple and black tones
@@ -127,7 +127,7 @@ const config = {
         foreground: "#F7ECE9", // Light foreground
 
         primary: {
-          DEFAULT: "#6B5B95", // Primary purple color
+          DEFAULT: "#c70ff0", // Primary purple color
           foreground: "#F7ECE9", // Light text for readability on purple
         },
         secondary: {
