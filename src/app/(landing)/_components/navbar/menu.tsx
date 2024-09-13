@@ -17,6 +17,7 @@ const Menu = ({ orientation }: MenuProps) => {
     case "desktop":
       return (
         <Card className="bg-themeGray border-themeGray bg-clip-padding backdrop--blur__safari backdrop-filter backdrop-blur-2xl bg-opacity-60 p-1 lg:flex hidden rounded-xl">
+          {/* <Card className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200"> */}
           <CardContent className="p-0 flex gap-2">
             {MALTIVASITY_CONSTANTS.landingPageMenu.map((menuItem) => (
               <Link
