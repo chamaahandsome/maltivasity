@@ -12,7 +12,7 @@ const CallToAction = () => {
         className='text-[35px] md:text-[40px] lg:text-[55px] xl:text-[70px] 2xl:text-[80px] leading-tight font-semibold'
         element='H1'
       >
-        Bringing Creatives <br className='md:hidden' /> Together
+        Building Creatives <br className='md:hidden' /> Skills Together
       </GradientText>
       <p className='text-sm md:text-center text-left text-muted-foreground pt-3'>
         Maltivasity is a platform that connects the creative learning <br className='md:hidden' /> communities <br className='hidden md:block' /> from all over the world

@@ -19,7 +19,7 @@ const LandingPageNavBar = (props: Props) => {
               height={34}
               priority
               />
-      <p className="text-2xl font-bold">Maltivasity.</p>
+      <p className="text-2xl font-bold text-black sm:text-white">Maltivasity.</p>
       </div>
       <Menu orientation="desktop" />
       <div className="flex gap-2">
