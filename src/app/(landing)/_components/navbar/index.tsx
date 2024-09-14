@@ -11,9 +11,9 @@ type Props = {};
 const LandingPageNavBar = (props: Props) => {
   return (
     <div className="w-full flex justify-between sticky top-0 items-center py-2 z-50">
-      <div className="flex">
+      <div className="flex gap-2">
       <Image
-              src="/MaltivasityLogo.svg"
+              src="/MaltivasityLogo.png"
               alt="Maltivasity Logo"
               width={34}
               height={34}

@@ -15,10 +15,9 @@ export default function Home() {
     return (
         // <main className="md:px-10 py-20 flex flex-col gap-36">
         <main className="h-full w-full">
-            <div className="flex flex-col h-[850p] gap-20">
-              
+            <div className="flex flex-col h-[850p] gap-20">            
                 <Blackhole />
-          
+
                 <CallToAction />
                 <DashboardSnippet />
             </div>
