@@ -22,7 +22,10 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className={`${jakarta.className} bg-black`}>
+        {/* <body className={`${jakarta.className} bg-black`}> */}
+        <body
+        className={`${jakarta.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+      >
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
