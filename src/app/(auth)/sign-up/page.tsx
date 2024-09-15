@@ -1,71 +1,27 @@
-"use client"
-import { FormGenerator } from "@/components/global/form-generator"
-import { Loader } from "@/components/global/loader"
-import { Button } from "@/components/ui/button"
-import { MALTIVASITY_CONSTANTS } from "@/constants"
-import { useAuthSignUp } from "@/hooks/authentication"
-import dynamic from "next/dynamic"
+import SignUpForm from "@/components/forms/sign-up"
+import { GoogleAuthButton } from "@/components/global/google-oauth-button"
+import { Separator } from "@/components/ui/separator"
 
 type Props = {}
 
-const OtpInput = dynamic(
-  () =>
-    import("@/components/global/otp-input").then(
-      (component) => component.default,
-    ),
-  { ssr: false },
-)
-
-const SignUpForm = (props: Props) => {
-  const {
-    register,
-    errors,
-    verifying,
-    creating,
-    onGenerateCode,
-    onInitiateUserRegistration,
-    code,
-    setCode,
-    getValues,
-  } = useAuthSignUp()
-
+const SignUpPage = (props: Props) => {
   return (
-    <form
-      onSubmit={onInitiateUserRegistration}
-      className="flex flex-col gap-3 mt-10"
-    >
-      {verifying ? (
-        <div className="flex justify-center mb-5">
-          <OtpInput otp={code} setOtp={setCode} />
+    <>
+      <h5 className="font-bold text-base text-themeTextWhite">SignUp to enter the <span className="text-themePurple">Maltivas</span></h5>
+      <p className="text-themeTextGray leading-tight pt-4">
+        Connect with creatives from around the world, join a univas, create your own,
+        take classes and become the best in your field.
+      </p>
+      <SignUpForm />
+      <div className="my-10 w-full relative">
+        <div className="bg-black p-3 absolute text-themeTextGray text-xs top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          OR CONTINUE WITH
         </div>
-      ) : (
-        MALTIVASITY_CONSTANTS.signUpForm.map((field) => (
-          <FormGenerator
-            {...field}
-            key={field.id}
-            register={register}
-            errors={errors}
-          />
-        ))
-      )}
-
-      {verifying ? (
-        <Button type="submit" className="rounded-2xl">
-          <Loader loading={creating}>Sign Up with Email</Loader>
-        </Button>
-      ) : (
-        <Button
-          type="button"
-          className="rounded-2xl"
-          onClick={() =>
-            onGenerateCode(getValues("email"), getValues("password"))
-          }
-        >
-          <Loader loading={false}>Generate Code</Loader>
-        </Button>
-      )}
-    </form>
+        <Separator orientation="horizontal" className="bg-themeGray" />
+      </div>
+      <GoogleAuthButton method="signup" />
+    </>
   )
 }
 
-export default SignUpForm
+export default SignUpPage

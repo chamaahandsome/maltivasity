@@ -17,18 +17,18 @@ const AuthLayout = async ({ children }: Props) => {
     <div className="container h-screen flex justify-center items-center  bg-[#030014]">
       <div className="flex flex-col w-full items-center py-24">
       <Image
-              src="/MaltivasityLogo.png"
+              src="/MaltivasityLogo2.png"
               alt="Maltivasity Logo"
-              width={124}
-              height={124}
+              width={144}
+              height={144}
               priority
               />
-        <h2 className="text-4xl font-bold text-themeTextWhite">Maltivasity.</h2>
+        {/* <h2 className="text-4xl font-bold text-themeTextWhite">Maltivasity.</h2> */}
         <BackdropGradient
           className="w-4/12 h-2/6 opacity-40"
           container="flex flex-col items-center"
         >
-          <GlassCard className="xs:w-full md:w-7/12 lg:w-5/12 xl:w-4/12 p-7 mt-16">
+          <GlassCard className="xs:w-full md:w-7/12 lg:w-5/12 xl:w-4/12 p-7 mt-10">
             {children}
           </GlassCard>
         </BackdropGradient>

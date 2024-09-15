@@ -35,6 +35,8 @@ const OTPInput = ({ otp, setOtp }: Props) => {
 
 export default OTPInput
 
+
+
 // import { InputOTP, InputOTPSlot } from "@/components/ui/input-otp"
 // import React from "react"
 

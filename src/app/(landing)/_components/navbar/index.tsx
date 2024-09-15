@@ -10,16 +10,18 @@ type Props = {};
 
 const LandingPageNavBar = (props: Props) => {
   return (
-    <div className="w-full flex justify-between sticky top-0 items-center py-2 z-50">
+    // <div className="w-full flex justify-between sticky top-0 items-center py-2 z-50 bg-transparent">
+    <div className="w-full flex justify-between sticky top-0 items-center py-2 z-50 bg-black bg-opacity-30">
+
       <div className="flex gap-2">
       <Image
-              src="/MaltivasityLogo.png"
+              src="/MaltivasityHLogo.png"
               alt="Maltivasity Logo"
-              width={34}
-              height={34}
+              width={200}
+              height={50}
               priority
               />
-      <p className="text-2xl font-bold text-black sm:text-white">Maltivasity.</p>
+      {/* <p className="text-2xl font-bold text-black sm:text-white">Maltivasity.</p> */}
       </div>
       <Menu orientation="desktop" />
       <div className="flex gap-2">

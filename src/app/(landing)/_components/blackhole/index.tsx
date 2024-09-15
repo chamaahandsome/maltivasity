@@ -69,12 +69,12 @@ import React from "react";
 
 const Blackhole = () => {
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
+    <div className="relative justify-center h-screen w-full overflow-hidden">
       <video
         autoPlay
         muted
         loop
-        className="rotate-180 absolute top-[-340px]  h-full w-full left-0 z-[1] object-cover "
+        className="rotate-180 absolute top-[-340px] h-full w-full z-[1] object-cover "
       >
         <source src="/blackhole.webm" type="video/webm" />
         Your browser does not support the video tag.

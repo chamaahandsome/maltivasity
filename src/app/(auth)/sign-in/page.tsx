@@ -13,7 +13,7 @@ const SignInPage = () => {
         </h5>
       <p className="text-themeTextGray leading-tight pt-4">
         Connect with creatives from around the world, join a univas, create your own,
-        watch classes and become the best in your field.
+        take classes and become the best in your field.
       </p>
       <SignInForm />
       <div className="my-10 w-full relative">
