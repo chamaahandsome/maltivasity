@@ -15,7 +15,7 @@ const CallToAction = () => {
         Building Creatives <br className='md:hidden' /> Skills Together
       </GradientText>
       <p className='text-sm md:text-center text-left text-muted-foreground pt-3'>
-        Maltivasity is a platform that connects the creative learning <br className='md:hidden' /> communities <br className='hidden md:block' /> from all over the world
+        <span className='text-themePurple font-bold'>Maltivasity</span> is a platform that connects the creative learning <br className='md:hidden' /> communities <br className='hidden md:block' /> from all over the world
         to build skills, interact <br className='md:hidden' /> and create amazing projects together.
       </p>
       <div className='flex md:flex-row flex-col md:justify-center gap-5 md:mt-5 w-full'>
