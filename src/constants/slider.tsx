@@ -8,6 +8,9 @@ import {
   SocialMedia,
   Tech,
 } from "../icons"
+import { ComicBook } from "@/icons/comicbook"
+import { GameDev } from "@/icons/gamedev"
+import { Writing } from "@/icons/writing"
 
 export type GroupListProps = {
   id: string
@@ -25,8 +28,8 @@ export const GROUP_LIST: GroupListProps[] = [
   },
   {
     id: "1",
-    label: "Fitness",
-    icon: <Fitness />,
+    label: "ComicBooks",
+    icon: <ComicBook />,
     path: "fitness",
   },
   {
@@ -37,31 +40,31 @@ export const GROUP_LIST: GroupListProps[] = [
   },
   {
     id: "3",
-    label: "Buisness",
+    label: "Animation",
     icon: <Buisness />,
     path: "buisness",
   },
   {
     id: "4",
-    label: "Lifestyle",
-    icon: <LifeStyle />,
+    label: "Game Development",
+    icon: <GameDev />,
     path: "lifestyle",
   },
   {
     id: "5",
-    label: "Personal Development",
-    icon: <PersonalDevelopment />,
+    label: "Writing",
+    icon: <Writing />,
     path: "personal-development",
   },
   {
     id: "6",
-    label: "Social Media",
+    label: "Film",
     icon: <SocialMedia />,
     path: "social-media",
   },
   {
     id: "7",
-    label: "Tech",
+    label: "Crafty",
     icon: <Tech />,
     path: "tech",
   },
