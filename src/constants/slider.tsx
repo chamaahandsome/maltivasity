@@ -11,6 +11,7 @@ import {
 import { ComicBook } from "@/icons/comicbook"
 import { GameDev } from "@/icons/gamedev"
 import { Writing } from "@/icons/writing"
+import { FaceMask } from "@/icons/mask"
 
 export type GroupListProps = {
   id: string
@@ -65,7 +66,7 @@ export const GROUP_LIST: GroupListProps[] = [
   {
     id: "7",
     label: "Crafty",
-    icon: <Tech />,
+    icon: <FaceMask />,
     path: "tech",
   },
 ]
