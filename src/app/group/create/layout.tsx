@@ -16,7 +16,7 @@ const CreateGroupLayout = ({ children }: Props) => {
         <Image
               src="/MaltivasityHLogo.png"
               alt="Maltivasity Logo"
-              width={244}
+              width={344}
               height={60}
               priority
               />
