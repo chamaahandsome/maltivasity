@@ -25,7 +25,7 @@ const CallToAction = () => {
         >
             Watch Demo
         </Button>
-        <Link href='/sign-in'>
+        <Link href='/sign-up'>
             <Button className='relative py-2 px-3 rounded-xl text-base flex gap-2 w-full bg-[#0700ff] shadow-[opx_0px_12px_#8c45ff]'>
            <BadgePlus /><span>Get Started</span>
             </Button>
