@@ -31,7 +31,7 @@ export const GroupSubscriptionForm = ({
           </span>
         }
         title="Create a subscription"
-        description="Create a subscription plan for your grouple group"
+        description="Create a subscription plan for your Univas"
       >
         <form
           onSubmit={onCreateNewSubscription}
