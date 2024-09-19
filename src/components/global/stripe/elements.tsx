@@ -1,7 +1,7 @@
 "use client"
 
 
-import { useStripeElements } from "@/hooks/payments"
+import { useStripeElements } from "@/hooks/payment"
 import { Elements } from "@stripe/react-stripe-js"
 
 type StripeElementsProps = {

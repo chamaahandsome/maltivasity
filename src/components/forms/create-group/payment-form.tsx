@@ -3,7 +3,7 @@
 import { FormGenerator } from "@/components/global/form-generator"
 import { Loader } from "@/components/global/loader"
 import { Button } from "@/components/ui/button"
-import { usePayments } from "@/hooks/payments"
+import { usePayments } from "@/hooks/payment"
 import { ErrorMessage } from "@hookform/error-message"
 import { CardElement } from "@stripe/react-stripe-js"
 import dynamic from "next/dynamic"
