@@ -36,7 +36,7 @@ export const GroupListSlider = ({
       {...rest}
     >
       {MALTIVASITY_CONSTANTS.groupList.map((item, i) => (
-        <SwiperSlide key={item.id} className="content-width-slide ">
+        <SwiperSlide key={item.id} className="content-width-slide">
           {!register ? (
             route ? (
               <Link href={`/explore/${item.path}`}>
