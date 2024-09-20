@@ -27,12 +27,12 @@ import {
     },
     {
       id: "2",
-      label: "Group chat and posts",
+      label: "Univas chat and posts",
       icon: <Chat />,
     },
     {
       id: "3",
-      label: "Students can create teams within Groups",
+      label: "Students can create teams within the Univas",
       icon: <Grid />,
     },
     {

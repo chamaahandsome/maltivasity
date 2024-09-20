@@ -24,7 +24,7 @@ const Menu = ({ orientation }: MenuProps) => {
                 className={cn(
                   "rounded-xl flex gap-2 py-2 px-4 items-center",
                   section == menuItem.path
-                    ? "bg-[#09090B] border-[#27272A]"
+                    ? "bg-themePurple border-[#27272A]"
                     : "",
                 )}
                 key={menuItem.id}

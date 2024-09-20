@@ -3,7 +3,7 @@ import { onGetChannelInfo } from "@/actions/channels"
 import { onGetGroupInfo } from "@/actions/groups"
 
 import { LeaderBoardCard } from "@/app/group/_components/leaderboard"
-// import GroupSideWidget from "@/components/global/group-side-widget"
+import GroupSideWidget from "@/components/global/group-side-widget"
 import { currentUser } from "@clerk/nextjs/server"
 import {
   HydrationBoundary,
@@ -11,8 +11,8 @@ import {
   dehydrate,
 } from "@tanstack/react-query"
 import Menu from "../../_components/group-navbar"
-// import CreateNewPost from "./_components/create-post"
-// import { PostFeed } from "./_components/post-feed"
+import CreateNewPost from "./_components/create-post"
+import { PostFeed } from "./_components/post-feed"
 
 type Props = {
   params: { channelid: string; groupid: string }
@@ -41,16 +41,16 @@ const GroupChannelPage = async ({ params }: Props) => {
         </div>
         <div className="lg:col-span-2 flex flex-col gap-y-5 py-5">
           <Menu orientation="desktop" />
-          {/* <CreateNewPost
+          <CreateNewPost
             userImage={user?.imageUrl!}
             channelid={params.channelid}
             username={user?.firstName!}
           />
 
-          <PostFeed channelid={params.channelid} userid={authUser.id!} /> */}
+          <PostFeed channelid={params.channelid} userid={authUser.id!} />
         </div>
         <div className="col-span-1 hidden lg:inline relative py-5">
-          {/* <GroupSideWidget light /> */}
+          <GroupSideWidget light />
         </div>
       </div>
     </HydrationBoundary>
