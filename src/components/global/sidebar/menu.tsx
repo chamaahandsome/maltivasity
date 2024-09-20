@@ -61,7 +61,7 @@ const SideBarMenu = ({
             userId === groupUserId && (
               <Link
                 className={cn(
-                  "flex gap-x-2 items-center font-semibold rounded-xl text-themeTextGray hover:bg-themeGray p-2",
+                  "flex gap-x-2 items-center font-semibold rounded-xl text-themeTextGray hover:bg-themePurple p-2",
                   currentPage === "settings"
                     ? !item.path && "text-white"
                     : currentPage === item.path && "text-white",
@@ -76,7 +76,7 @@ const SideBarMenu = ({
           ) : (
             <Link
               className={cn(
-                "flex gap-x-2 items-center font-semibold rounded-xl text-themeTextGray hover:bg-themeGray p-2",
+                "flex gap-x-2 items-center font-semibold rounded-xl text-themeTextGray hover:bg-themePurple p-2",
                 currentPage === "settings"
                   ? !item.path && "text-white"
                   : currentPage === item.path && "text-white",
@@ -104,7 +104,7 @@ const SideBarMenu = ({
                   id="channel-link"
                   key={channel.id}
                   className={cn(
-                    "flex justify-between hover:bg-themeGray p-2 group rounded-lg items-center",
+                    "flex justify-between hover:bg-themePurple p-2 group rounded-lg items-center",
                     channel.id === current && edit && "bg-themeGray",
                   )}
                   href={`/group/${channel.groupId}/channel/${channel.id}`}
