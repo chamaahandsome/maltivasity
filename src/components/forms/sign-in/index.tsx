@@ -29,4 +29,4 @@ const SignInForm = (props: Props) => {
   )
 }
 
-export default SignInForm
+export default SignInForm;
